@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Add Text To Footer
-Version: 1.1
+Version: 1.0
 */
 
 namespace Pancakezys\HelloWorldPlugin;
@@ -15,7 +15,7 @@ class Plugin
 
     public function hello_world()
     {
-        echo "<p>Hello World from Pancakezys Plugin! And version 1.1 announcement!</p>";
+        echo "<p>Hello World from Pancakezys Plugin!</p>";
     }
 }
 new Plugin();
